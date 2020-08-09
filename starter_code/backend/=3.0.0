@@ -1,0 +1,10 @@
+Collecting python-jose
+  Downloading https://files.pythonhosted.org/packages/6c/80/5bdf2543fe002dc74429e9360148deb4d9e0b453acdc2b5c6fb1617f4f9d/python_jose-3.1.0-py2.py3-none-any.whl
+Collecting pyasn1 (from python-jose)
+  Downloading https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77kB)
+Requirement already satisfied: six<2.0 in ./src/env/lib/python3.7/site-packages (from python-jose) (1.12.0)
+Collecting rsa (from python-jose)
+  Downloading https://files.pythonhosted.org/packages/1c/df/c3587a667d6b308fadc90b99e8bc8774788d033efcc70f4ecaae7fad144b/rsa-4.6-py3-none-any.whl (47kB)
+Requirement already satisfied: ecdsa<1.0 in ./src/env/lib/python3.7/site-packages (from python-jose) (0.13.2)
+Installing collected packages: pyasn1, rsa, python-jose
+Successfully installed pyasn1-0.4.8 python-jose-3.1.0 rsa-4.6
